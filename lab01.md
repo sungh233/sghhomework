@@ -1,16 +1,31 @@
 ---
 layout: default
-title: 请将标题写在这里
+title: 浅谈海南清补凉
 ---
 
-# 我的博客标题
+# 浅谈海南清补凉
+*&emsp;&emsp;在海南，清补凉是很受欢迎的，夜晚当你漫步在街上，总会看到很多卖清补凉的人，清补凉很有营养，用很多种食物在里面，如空心粉，绿豆，西瓜，椰奶，芋头，凉粉等等。*
 
-## 1、你会使用 vscode 编辑 markdown 了吗？
+![图片](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537730176660&di=92a1c17b5505a2a82a484d50c94731ed&imgtype=0&src=http%3A%2F%2Fzqdb.hinews.cn%2Fresfile%2F2016-08-11%2F014%2Fp48_s.jpg)
 
-你会使用 git bash 创建本地空间了吗？
+一.概述
 
-你能拉取本文档到本地了？它在 gh-pages 分支内，设置 Slate 主题！
+  &emsp;&emsp;海南清补凉，属于海南菜。作为风靡热带海南岛的特色冰爽甜品，传统的海南清补凉主要是以红豆（绿豆）、薏米、花生、空心粉等做成，放置冷却或加入冰块后及成为一碗正宗的海南清补凉。
 
-用 vscode 编辑它，然后提交！
+![图片](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537730041754&di=ad03684176575341fe4bdea23f5a23fb&imgtype=0&src=http%3A%2F%2Fcms-bucket.nosdn.127.net%2F2018%2F08%2F27%2F1b0f64d4db72447b93a02ed7efac8138.jpeg)
 
-这个文档将发布在 https://your-account.github.io/homework 中！
+
+  二.制法
+  
+  &emsp;&emsp;传统的海南清补凉主要是以红豆（绿豆）、薏米、、花生、空心粉等做成，放置冷却或加入冰块后及成为一碗正宗的海南清补凉。现如今，因为食材品种的多样性，大部分地区（海南各地区口味又不同）都开始加入了如椰肉、红枣、西瓜粒、菠萝粒、鹌鹑蛋、凉粉、“冬瓜yi”等多种配料，又为了照顾多众人的口味，增加了椰汁、糖水和清水可选项。
+
+![图片](https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=167909098,1562661645&fm=26&gp=0.jpg)
+
+![图片](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537730337782&di=f84694557454fdf7ec1f6c324f63b160&imgtype=0&src=http%3A%2F%2Fyouimg1.c-ctrip.com%2Ftarget%2Ftg%2F757%2F712%2F473%2F803448d38871420492a68a07e6a3287c.jpg)
+
+
+三.体验
+
+&emsp;&emsp;炎炎夏日，漫步海岛街头，走进烟火小巷，寻一张凳子，点一碗清补凉，糖水入喉心清凉。一碗清补凉，是一幅晃动的画，灯边人影，微醺而昏沉。
+
+![图片](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537732112659&di=aefa344162668196878f0dceb2713d7b&imgtype=0&src=http%3A%2F%2Fs14.sinaimg.cn%2Fmiddle%2F4e07d559ga594fe160ded%26690)
