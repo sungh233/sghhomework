@@ -1,16 +1,10 @@
-# 【学号】的软导作业索引页
 
-## 课后作业
-
-![图片](http://image.xinmin.cn/2016/12/08/e54cb522-bc48-452e-a9a7-c552b5e85270.png)
-
-1. [01-使用维基百科（Wikipedia）解释名词](hw01)
-2. [02-](hw02)
-3. [03-](hw03)
-4. ...
+#HELLO,GITHUB
+![图片](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537902147105&di=d5516c44a4d983e6ed86cdfeb7b199a7&imgtype=0&src=http%3A%2F%2Fscdn.file1.gk99.com%2Fphoto%2F2013-06%2F2013-06-17%2F137144967588661.jpg)
 
 
-## 实验与实践
+
+
 
 1. [01-我的 Markdown 博客](lab01)
 2. [02-制作 HTML5 游戏](lab02)
@@ -30,9 +24,6 @@
 16. [16-互联网时代的盈利模式](lab16)
 
 
-## Markdown 语法演示
-
-![](images/exclamation.png) 语法 [demo 文档](demo)， [source](https://github.com/sysu-swi/homework/blob/gh-pages/demo.md)
 
 
 
