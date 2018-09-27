@@ -28,5 +28,24 @@ step2:制作start页面，右键点击insert,插入图片与button，并调整sh
 ![图片](images/03.png)
 
 &emsp;&emsp;
-step3:制作属于你的游戏画面！自由id你的图标与界面！右键insert，
+step3:制作属于你的游戏画面！自由id你的图标与界面！右键insert,调整图标位置。
 
+![图片](images/04.png)
+
+接下来，给小猪设置动作,如图
+
+![图片](images/05.png)
+
+"behavios"中选择"platform"
+"max speed"调为0
+
+&emsp;&emsp;
+step4:进入sheet2,进行动作调节，如图
+
+![图片](images/06.png)
+![图片](images/07.png)
+
+&emsp;&emsp;
+step5:点击左上角播放，开始体验游戏吧！
+
+![图片](images/233.gif)
