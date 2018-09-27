@@ -28,5 +28,5 @@ step2:制作start页面，右键点击insert,插入图片与button，并调整sh
 ![图片](images/03.png)
 
 &emsp;&emsp;
-step3:制作属于你的游戏画面！自由id你的图标与界面，右键insert，
+step3:制作属于你的游戏画面！自由id你的图标与界面！右键insert，
 
