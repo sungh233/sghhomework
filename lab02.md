@@ -37,6 +37,7 @@ step3:制作属于你的游戏画面！自由id你的图标与界面！右键ins
 ![图片](images/05.png)
 
 "behavios"中选择"platform"
+
 "max speed"调为0
 
 &emsp;&emsp;
