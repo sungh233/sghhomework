@@ -12,10 +12,32 @@
 
 玩法：
 
-通过控制王校长走位消除热狗，王校长接触到热狗游戏结束。
+通过控制王校长走位发射分身消除热狗，王校长接触到热狗游戏结束。
 
 二.游戏设计
 
+1.
 
+Object:热狗
+
+Attribute:图片，位置
+
+Events & Actions：碰撞&销毁自己
+
+2.
+
+Object:王校长
+
+Attribute:图片，位置
+
+Events & Actions：发射分身
+
+3.
+
+Object：王校长的分身
+
+Attribute:图片，位置
+
+Events & Actions：碰撞&销毁自己
 
 ![1](images/WXZ游戏.gif)
