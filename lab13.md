@@ -1,6 +1,6 @@
 # 贪吃蛇
 
-1.move.c
+1.snake_move.c
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -82,7 +82,7 @@ for(m = 0;m<12;++m){
 
 
 
-2.eat.c
+2.snake_eat.c
 
 #include <stdio.h>
 #include <stdlib.h>
