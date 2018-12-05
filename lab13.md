@@ -31,8 +31,8 @@ int main(){
     int snakex[400] = {5,4,3,2,1};
 
     for( ;length != 0;){        
-        char dir = _getch();            
-        if(dir == 'W' || dir == 'w'){
+        char pos = _getch();            
+        if(pos == 'W' || pos == 'w'){
             int m;
                 for(m = 0;m < length;++ m){
                 snakex[length - m] = snakex[length - m -1];
@@ -44,7 +44,7 @@ int main(){
         
      }   
     
-    if(dir == 'S' || dir =='s'){
+    if(pos == 'S' || pos =='s'){
             int m;
         for(m = 0;m < length;++ m){
                 snakex[length - m] = snakex[length - m -1];
@@ -54,7 +54,7 @@ int main(){
             length++;
                continue;
     } 
-    if(dir == 'A' || dir == 'a'){
+    if(pos == 'D' || pos == 'd'){
             int m;   
             for(m = 0;m < length;++ m){
                 snakex[length - m] = snakex[length - m -1];
@@ -64,7 +64,7 @@ int main(){
             ++ length;
                 continue;
     }
-    if(dir == 'D' || dir == 'd'){
+    if(pos == 'A' || pos == 'a'){
             int m;
         for(m = 0;m < length;++ m){
                 snakex[length - m] = snakex[length - m -1];
@@ -91,7 +91,7 @@ for(m = 0;m<12;++m){
 #include <string.h>
 #include <time.h>
 
-void getfood(char map[][13]){
+void eatfood(char map[][13]){
     next:
     srand((unsigned)time(NULL));
     int i, j;
@@ -115,7 +115,7 @@ int main(){
     "*          *",
     "*          *",
     "************"} ; 
-getfood(map);
+eatfood(map);
     int m;
     for(m = 0;m<12;++m){
         printf("%s\n",map[m]);
@@ -125,8 +125,8 @@ getfood(map);
     int snakex[400] = {5,4,3,2,1};
 
     for( ;length != 0;){        
-        char dir = _getch();            
-        if(dir == 'W' || dir == 'w'){
+        char position = _getch();            
+        if(position == 'W' || position == 'w'){
             int m;
             if(map[snakey[0]-1][snakex[0]] == '$'){
                 map[snakey[0]-1][snakex[0]] = 'H';
@@ -137,7 +137,7 @@ getfood(map);
             }           
         -- snakey[0];
         ++ length;
-        getfood(map);
+        eatfood(map);
         continue;   
     }
     if(map[snakey[0]-1][snakex[0]] == '*' || map[snakey[0]-1][snakex[0]] == 'X'){       
@@ -156,7 +156,7 @@ getfood(map);
             -- snakey[0];       
 }
 
-        if(dir == 'S' || dir =='s'){
+        if(position == 'S' || position =='s'){
             int m;
     if(map[snakey[0]+1][snakex[0]] == '$'){
         map[snakey[0]+1][snakex[0]] = 'H';
@@ -167,7 +167,7 @@ getfood(map);
             }           
             ++ snakey[0];
             length++;
-            getfood(map);           
+            eatfood(map);           
             continue;       
     }
     if(map[snakey[0]+1][snakex[0]] == '*' || map[snakey[0]+1][snakex[0]] == 'X'){
@@ -185,7 +185,7 @@ getfood(map);
             }           
             ++ snakey[0];           
         }
-        if(dir == 'A' || dir == 'a'){
+        if(position == 'A' || position == 'a'){
             int m;
             if(map[snakey[0]][snakex[0]-1] == '$'){
                 map[snakey[0]][snakex[0]-1] = 'H';
@@ -196,7 +196,7 @@ getfood(map);
             }           
             -- snakex[0];
             ++ length;
-            getfood(map);
+            eatfood(map);
             continue;       
     }
     if(map[snakey[0]][snakex[0]-1] == '*' || map[snakey[0]][snakex[0]-1] == 'X'){
@@ -215,7 +215,7 @@ getfood(map);
             }                               
             -- snakex[0];           
         }
-        if(dir == 'D' || dir == 'd'){
+        if(position == 'D' || position == 'd'){
             int m;
     if(map[snakey[0]][snakex[0]+1] == '$'){
         map[snakey[0]][snakex[0]+1] = 'H';
@@ -226,7 +226,7 @@ getfood(map);
             }           
         ++ snakex[0];
         ++ length;
-        getfood(map);
+        eatfood(map);
         continue;
     }
     if(map[snakey[0]][snakex[0]+1] == '*' || map[snakey[0]][snakex[0]+1] == 'X'){
@@ -250,5 +250,5 @@ getfood(map);
             printf("%s\n",map[m]); 
         }       
     }
-    printf("GAME OVER!");
+    printf("game over!!!");
 } 
